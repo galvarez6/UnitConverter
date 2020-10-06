@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utep.cs.cs4330.unitconverter.MainActivity">
+    <item
+        android:id="@+id/f_m"
+        android:orderInCategory="100"
+        android:title="@string/feet"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/i_c"
+        android:orderInCategory="100"
+        android:title="@string/inches"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/p_g"
+        android:orderInCategory="100"
+        android:title="@string/pounds"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/q"
+        android:orderInCategory="100"
+        android:title="@string/quit"
+        app:showAsAction="never" />
+
+</menu>
